@@ -24,16 +24,15 @@ paragraph.textContent += "Taking a break at all is so stressful these days; why 
 article.append(paragraph);
 
 
-
-
-//////////// Adds class featured to main section
-
-
+//////////// Create and adds aside tag to the article
+let aside = document.createElement("aside");
+article.append(aside);
 
 
 
-//////////// Adds class featured to main section
-
+//////////// Create and adds paragraph inside the aside tag 
+let asideParagraph = document.createElement("p");
+aside.append(asideParagraph);
 
 
 //////////// Adds class featured to main section
